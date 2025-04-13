@@ -29,7 +29,7 @@ jobs:
     needs: build
     runs-on: ubuntu-latest
     steps:
-      - name: SSH to Server 
+      - name: SSH to Servers 
         uses: appleboy/ssh-action@v1.0.3
         with:
           host: 3.210.185.111
